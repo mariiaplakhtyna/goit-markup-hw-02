@@ -13,6 +13,7 @@ body {
     font-size: 18px;
     color: #4d5ae5;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
 
@@ -88,6 +89,7 @@ text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 
 }
 
@@ -100,7 +102,9 @@ text-transform: capitalize;
 
 
 /* ===== Team ===== */
-
+.team {
+    background-color: #f4f4fd;
+}
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -109,6 +113,7 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .p {
@@ -119,6 +124,7 @@ text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
  
 }
 
