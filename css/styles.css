@@ -6,19 +6,16 @@ body {
 }
 
 /* ===== Header ===== */
-}
-
 .logo {
     line-height: 1.17;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+
 }
 
 .logo-accent {
     color: #2e2f42;
-}
-
-.logo-accent-light {
-    color: #f4f4fd;
 }
 
 .nav-link {
@@ -33,7 +30,9 @@ body {
 .nav-link:focus {
     color: #404bbf;
 }
-
+.contacts {
+    font-style: normal;
+}
 .contacts-link {
     text-decoration: none;
     font-size: 16px;
@@ -50,64 +49,53 @@ body {
 .hero-section {
     background-color: #2e2f42;
 }
+.hero-title {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+
+}
 
 .primary-btn {
+    cursor: pointer;
     background-color: #4d5ae5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
 }
 
 .primary-btn:hover,
 .primary-btn:focus 
 
-/* ===== Features ===== */
-.features-title {
-    text-transform: capitalize;
-    color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
+/* ==== Sections titles (Team + Portfolio) ===== */
+.section-title {
+color: #2e2f42;
+font-size: 36px;
+line-height: 1.2;
 }
 
-.features-item {
-    list-style: none;
-}
-
+/* ===== Features ( 2 сeкція)===== */
 .features-title {
-
     color: #2e2f42;
-    font-weight: 500;
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
 }
 
 .features-text {
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
 }
+
 
 /* ===== Team ===== */
 .team {
     background-color: #f4f4fd;
-
-}
-
-.team-list {
-    list-style: none;
-
-}
-
-.team-card {
-    background-color: #ffffff;
-    
-}
-
-.team-card img {
-    width: 264px;
-
 }
 
 .team-name {
-    margin: 32px 16px 8px;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
@@ -116,36 +104,16 @@ body {
 }
 
 .team-role {
-
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
 }
 
 /* ===== Portfolio ===== */
-.portfolio-section {
-    background-color: #f4f4fd;
-}
 
-.portfolio-list {
-    list-style: none;
-    margin: 0;
 
-}
-
-.portfolio-card {
-    background-color: #ffffff;
-   
-}
-
-.portfolio-card img {
-
-    width: 360px;
-
-}
 
 .project-title {
-    margin: 32px 16px 8px;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
@@ -154,23 +122,21 @@ body {
 }
 
 .project-text {
-    margin: 0 16px 32px;
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
-
-    color: #434455;
 }
 
 /* ===== Footer ===== */
 .footer {
     background-color: #2e2f42;
-
 }
-
 .footer-logo {
     text-decoration: none;
 }
-
+    .logo-accent-light {
+color: #f4f4fd;
+    }
 .footer-text {
     color: #f4f4fd;
     font-size: 16px;
