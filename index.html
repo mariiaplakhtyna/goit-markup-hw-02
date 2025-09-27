@@ -3,33 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>WebStudio</title>
     <!--Normalize-->
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400,500,700&display=swap"
         rel="stylesheet" />
     <!--styles-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!-- HEADER -->
     <header class="site-header">
-        <nav class="main-nav">
+        <nav class="main-nav container">
             <a href="./index.html" class="logo">Web<span class="logo-accent">Studio</span></a>
             <ul class="nav-list">
                 <li><a class="nav-link" href="./index.html">Studio</a></li>
-                <li><a class="nav-link" href="#">Portfolio</a></li>
+                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
                 <li><a class="nav-link" href="#contacts">Contacts</a></li>
             </ul>
         </nav>
         <!--Contacts-->
-        <address class="contacts">
+        <address class="contacts" id="contacts">
             <ul class="contacts-list">
                 <li>
                     <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -45,12 +45,15 @@
     <main>
         <!-- HERO SECTION -->
         <section class="hero-section">
+            <div class="container">
             <h1 class="herro-y-title">Effective Solutions for Your Business</h1>
             <button type="button" class="primary-btn">Order Service</button>
+            </div>
         </section>
 
         <!-- FEATURES SECTION -->
         <section class="features-section">
+            <div class="container">
             <h2 class="section-title">Our Features</h2>
             <ul class="features-list">
                 <li class="features-item">
@@ -77,10 +80,12 @@
                         problem-solving.</p>
                 </li>
             </ul>
+            </div>
         </section>
 
         <!-- TEAM SECTION -->
-        <section class="team" id="contacts">
+        <section class="team" id="team">
+            <div class="container">
             <h2 class="section-title">Our Team</h2>
             <ul class="team-list">
                 <li class="team-card">
@@ -90,7 +95,7 @@
                 </li>
                 <li class="team-card">
                     <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264">
-                    <h3class="team-name">Tom Ford</h3class=>
+                    <h3 class="team-name">Tom Ford</h3>
                         <p class="team-role">Frontend Developer</p>
                 </li>
                 <li class="team-card">
@@ -104,13 +109,20 @@
                     <p class="team-role">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--PORTFOLIO-->
         <section class="portfolio-section" id="portfolio">
+            <div class="container">
             <h2 class="section-title">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li class="portfolio-card">
                     <img src="./images/bankapp.jpg" alt="Banking App interface" width="360" />
+                    <h3 class="project-title">Banking App</h3>
+                    <p class="project-text">App</p>
+                </li>
+                <li class="portfolio-card">
+                    <img src="./images/cashlesspayment.jpg" alt="Cashless Payment" width="360" />
                     <h3 class="project-title">Cashless Payment</h3>
                     <p class="project-text">Marketing</p>
                 </li>
@@ -133,14 +145,17 @@
                     <p class="project-text">Marketing</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
+        <div class="container">
         <a class="logo footer-logo" href="./index.html">Web<span class="logo-accent-light">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
             growth solutions.</p>
+        </div>
     </footer>
 </body>
 

@@ -1,24 +1,36 @@
-/* ===== BASE ===== */
+/* ===== Base ===== */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-/* Сховати технічні заголовки */
-.visually-hidden {
-    width: 1px;
-    height: 1px;
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-/* ===== HEADER / LOGO / NAV ===== */
+/* ===== Header ===== */
+.site-header {
+    border-bottom: 1px solid #e7e9fc;
+    background-color: #ffffff;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 0;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 }
@@ -27,122 +39,247 @@ body {
     color: #2e2f42;
 }
 
-.nav-list {
-    list-style: none;
+.logo-accent-light {
+    color: #f4f4fd;
 }
 
-.nav-item 
+.nav-list,
+.contacts-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
 
-.nav-link-prim {
-    font-weight: 500;
+.nav-link {
     text-decoration: none;
+    font-weight: 500;
+    /* 500 */
+    font-size: 16px;
+    /* 16px */
+    line-height: 1.5;
+    /* 1.5 */
+    letter-spacing: 0.02em;
+    /* 0.02em */
     color: #2e2f42;
 }
 
-/* ===== HERO (SECTION 1) ===== */
-.section-hero {
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+/* ===== Hero ===== */
+.hero-section {
     background-color: #2e2f42;
-    padding: 40px 0;
     text-align: center;
+    padding: 188px 0;
 }
 
 .hero-title {
+    margin: 0 0 48px;
+    color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
 }
 
-.hero-btn {
-    font-family: "Roboto", sans-serif;
+.primary-btn {
+    cursor: pointer;
+    /* C13 */
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4d5ae5;
-    cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.primary-btn:hover,
+.primary-btn:focus {
     background-color: #404bbf;
 }
 
-/* ===== SECTION 2 (FEATURES) ===== */
-.section-features {
-    padding: 40px 0;
-}
-
-.features-list {
-    list-style: none;
-}
-
-.feature-card markup-hw-02
-
-.bg-white {
-    background-color: #ffffff;
-}
-
-.card-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.card-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* ===== SECTION 3 (TEAM / PORTFOLIO) ===== */
-.section-team {
-    background-color: #f4f4fd;
-    padding: 40px 0;
+/* ===== Features ===== */
+.features-section {
+    padding: 120px 0;
 }
 
 .section-title {
+    margin: 0 0 72px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.features-item {
+    list-style: none;
+}
+
+.features-title {
+    margin: 0 0 8px;
     color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    /* 20px */
+    line-height: 1.2;
+    /* 1.2 */
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    margin: 0;
+    font-size: 16px;
+    /* 16px */
+    line-height: 1.5;
+    /* 1.5 */
+    letter-spacing: 0.02em;
+    color: #434455;
+    /* #434455 */
+}
+
+/* ===== Team ===== */
+.team {
+    background-color: #f4f4fd;
+    /* світлий фон секції */
+    padding: 120px 0;
 }
 
 .team-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 
 .team-card {
     background-color: #ffffff;
+    border: 1px solid #e7e9fc;
+    text-align: center;
 }
 
-/* ===== FOOTER ===== */
-.site-footer {
-    padding: 24px 0;
+.team-card img {
+    display: block;
+    width: 264px;
+    /* відповідає width у HTML */
+    height: auto;
+    margin: 0 auto;
 }
 
-.footer-address {
-    font-style: normal;
+.team-name {
+    margin: 32px 16px 8px;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    /* 20px */
+    line-height: 1.2;
+    /* 1.2 */
+    letter-spacing: 0.02em;
 }
 
-.contacts-list {
+.team-role {
+    margin: 0 16px 32px;
+    font-size: 16px;
+    /* 16px */
+    line-height: 1.5;
+    /* 1.5 */
+    letter-spacing: 0.02em;
+    color: #434455;
+    /* #434455 */
+}
+
+/* ===== Portfolio ===== */
+.portfolio-section {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.portfolio-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 
-.contact-link {
+.portfolio-card {
+    background-color: #ffffff;
+    border: 1px solid #e7e9fc;
+}
+
+.portfolio-card img {
+    display: block;
+    width: 360px;
+    /* відповідно до width атрибуту */
+    height: auto;
+}
+
+.project-title {
+    margin: 32px 16px 8px;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.project-text {
+    margin: 0 16px 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo {
     text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
+.footer-text {
+    margin-top: 16px;
+    max-width: 264px;
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
