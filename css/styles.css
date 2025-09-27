@@ -21,26 +21,11 @@ body {
     color: #2e2f42;
 }
 
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-}
-
 .nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
+.nav-link:focus 
+
 .contacts {
     font-style: normal;
-}
-.contacts-link {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
