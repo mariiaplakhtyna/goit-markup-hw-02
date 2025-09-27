@@ -7,16 +7,8 @@ body {
 
 /* Сховати технічні заголовки */
 .visually-hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 /* ===== HEADER / LOGO / NAV ===== */
@@ -39,7 +31,7 @@ body {
     list-style: none;
 }
 
-.nav-item {}
+.nav-item 
 
 .nav-link-prim {
     font-weight: 500;
@@ -71,8 +63,6 @@ body {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
-    border: none;
-    padding: 12px 24px;
 }
 
 .hero-btn:hover,
@@ -89,7 +79,7 @@ body {
     list-style: none;
 }
 
-.feature-card {}
+.feature-card markup-hw-02
 
 .bg-white {
     background-color: #ffffff;
@@ -119,9 +109,7 @@ body {
 .section-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2e2f42;
 }
 
