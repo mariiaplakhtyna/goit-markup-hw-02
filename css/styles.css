@@ -7,22 +7,12 @@ body {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
 }
 
 /* ===== Header ===== */
 .site-header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #ffffff;
-}
-
-.main-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    padding: 24px 0;
 }
 
 .logo {
@@ -33,6 +23,7 @@ body {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .logo-accent {
@@ -43,15 +34,6 @@ body {
     color: #f4f4fd;
 }
 
-.nav-list,
-.contacts-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 40px;
-}
-
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -59,9 +41,6 @@ body {
     font-size: 16px;
     /* 16px */
     line-height: 1.5;
-    /* 1.5 */
-    letter-spacing: 0.02em;
-    /* 0.02em */
     color: #2e2f42;
 }
 
@@ -78,7 +57,6 @@ body {
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -90,31 +68,20 @@ body {
 /* ===== Hero ===== */
 .hero-section {
     background-color: #2e2f42;
-    text-align: center;
-    padding: 188px 0;
 }
 
 .hero-title {
-    margin: 0 0 48px;
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
-}
 
 .primary-btn {
     cursor: pointer;
-    /* C13 */
-    border: none;
-    padding: 16px 32px;
-    border-radius: 4px;
     background-color: #4d5ae5;
     color: #ffffff;
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
 }
 
 .primary-btn:hover,
@@ -123,24 +90,11 @@ body {
 }
 
 /* ===== Features ===== */
-.features-section {
-    padding: 120px 0;
-}
-
-.section-title {
-    margin: 0 0 72px;
-    text-align: center;
+.features-title {
     text-transform: capitalize;
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
-}
-
-.features-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
 }
 
 .features-item {
@@ -148,23 +102,18 @@ body {
 }
 
 .features-title {
-    margin: 0 0 8px;
+
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    /* 20px */
     line-height: 1.2;
-    /* 1.2 */
-    letter-spacing: 0.02em;
 }
 
 .features-text {
-    margin: 0;
     font-size: 16px;
     /* 16px */
     line-height: 1.5;
     /* 1.5 */
-    letter-spacing: 0.02em;
     color: #434455;
     /* #434455 */
 }
@@ -172,31 +121,23 @@ body {
 /* ===== Team ===== */
 .team {
     background-color: #f4f4fd;
-    /* світлий фон секції */
-    padding: 120px 0;
+
 }
 
 .team-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+
 }
 
 .team-card {
     background-color: #ffffff;
-    border: 1px solid #e7e9fc;
-    text-align: center;
+    
 }
 
 .team-card img {
-    display: block;
     width: 264px;
     /* відповідає width у HTML */
-    height: auto;
-    margin: 0 auto;
+
 }
 
 .team-name {
@@ -207,11 +148,11 @@ body {
     /* 20px */
     line-height: 1.2;
     /* 1.2 */
-    letter-spacing: 0.02em;
+    
 }
 
 .team-role {
-    margin: 0 16px 32px;
+
     font-size: 16px;
     /* 16px */
     line-height: 1.5;
@@ -224,28 +165,23 @@ body {
 /* ===== Portfolio ===== */
 .portfolio-section {
     background-color: #f4f4fd;
-    padding: 120px 0;
 }
 
 .portfolio-list {
     list-style: none;
     margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+
 }
 
 .portfolio-card {
     background-color: #ffffff;
-    border: 1px solid #e7e9fc;
+   
 }
 
 .portfolio-card img {
-    display: block;
+
     width: 360px;
-    /* відповідно до width атрибуту */
-    height: auto;
+
 }
 
 .project-title {
@@ -254,21 +190,21 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+   
 }
 
 .project-text {
     margin: 0 16px 32px;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+
     color: #434455;
 }
 
 /* ===== Footer ===== */
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+
 }
 
 .footer-logo {
@@ -276,10 +212,7 @@ body {
 }
 
 .footer-text {
-    margin-top: 16px;
-    max-width: 264px;
     color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
 }
