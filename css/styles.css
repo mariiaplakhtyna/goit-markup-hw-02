@@ -13,7 +13,7 @@ body {
     font-size: 18px;
     color: #4d5ae5;
     letter-spacing: 0.03em;
-    text-transform: capitalize;
+
 }
 
 .logo-accent {
@@ -71,9 +71,7 @@ body {
 }
 
 .primary-btn:hover,
-.primary-btn:focus {
-    background-color: #404bbf;
-}
+.primary-btn:focus 
 
 /* ==== Sections titles (Team + Portfolio) ===== */
 .section-title {
@@ -90,7 +88,7 @@ text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+
 }
 
 .features-text {
@@ -102,18 +100,20 @@ text-transform: capitalize;
 
 
 /* ===== Team ===== */
-.team {
-    background-color: #f4f4fd;
-}
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
+.p {
+    letter-spacing: 0.02;
+}
 .team-name {
     color: #2e2f42;
     font-weight: 500;
@@ -137,6 +137,8 @@ text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
    
 }
 
@@ -149,10 +151,9 @@ text-transform: capitalize;
 .p {
     letter-spacing: 0.02;
 }
+
 /* ===== Footer ===== */
-.footer {
-    background-color: #2e2f42;
-}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
