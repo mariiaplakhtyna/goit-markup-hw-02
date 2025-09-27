@@ -11,8 +11,7 @@ body {
     line-height: 1.17;
     font-weight: 700;
     font-size: 18px;
-
-
+    color: #4d5ae5;
 }
 
 .logo-accent {
@@ -52,6 +51,7 @@ body {
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
+    font-weight: 700;
 
 }
 
@@ -93,6 +93,12 @@ line-height: 1.2;
 .team {
     background-color: #f4f4fd;
 }
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+}
 
 .team-name {
     color: #2e2f42;
@@ -131,7 +137,11 @@ line-height: 1.2;
     background-color: #2e2f42;
 }
 .footer-logo {
-    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4d5ae5;
 }
     .logo-accent-light {
 color: #f4f4fd;
