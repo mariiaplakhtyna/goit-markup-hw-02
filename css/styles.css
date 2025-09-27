@@ -12,6 +12,8 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
 }
 
 .logo-accent {
@@ -56,22 +58,29 @@ body {
 }
 
 .primary-btn {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     background-color: #4d5ae5;
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04;
+    cursor: pointer;
 }
 
 .primary-btn:hover,
-.primary-btn:focus 
+.primary-btn:focus {
+    background-color: #404bbf;
+}
 
 /* ==== Sections titles (Team + Portfolio) ===== */
 .section-title {
 color: #2e2f42;
 font-size: 36px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 /* ===== Features ( 2 сeкція)===== */
@@ -132,6 +141,9 @@ line-height: 1.2;
     line-height: 1.5;
 }
 
+.p {
+    letter-spacing: 0.02;
+}
 /* ===== Footer ===== */
 .footer {
     background-color: #2e2f42;
