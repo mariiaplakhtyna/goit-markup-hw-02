@@ -25,6 +25,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -38,6 +39,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
@@ -59,7 +61,6 @@ body {
 
 .primary-btn {
     font-family: "Roboto", sans-serif;
-    cursor: pointer;
     background-color: #4d5ae5;
     color: #ffffff;
     font-weight: 500;
@@ -89,12 +90,14 @@ text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .features-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -107,6 +110,8 @@ text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
 }
 
 .team-name {
@@ -154,6 +159,8 @@ text-transform: capitalize;
     font-size: 18px;
     line-height: 1.17;
     color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
     .logo-accent-light {
 color: #f4f4fd;
