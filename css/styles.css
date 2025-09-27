@@ -30,7 +30,6 @@ ul,ol {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
      color: #2e2f42;
 }
 
@@ -58,11 +57,9 @@ ul,ol {
     background-color: #2e2f42;
 }
 .hero-title {
-    color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     font-weight: 700;
-    letter-spacing: 0.02em;
     text-align: center;
 
 }
@@ -88,7 +85,6 @@ ul,ol {
 color: #2e2f42;
 font-size: 36px;
 line-height: 1.2;
-letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
@@ -98,7 +94,6 @@ text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 
 }
 
@@ -165,10 +160,11 @@ text-transform: capitalize;
 }
 
 /* ===== Footer ===== */
-.page-footer {
+
+ .page-footer.footer-logo .logo-part {
+   letter-spacing: 0.02em;
+   line-height: 1.5;
     background-color: #2e2f42;
-}
-.footer-logo .logo-part {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
