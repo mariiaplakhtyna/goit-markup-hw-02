@@ -112,6 +112,7 @@ text-transform: capitalize;
 .team {
     background-color: #f4f4fd;
 }
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -120,6 +121,7 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    background-color: #ffffff;
   
 }
 
@@ -167,13 +169,10 @@ text-transform: capitalize;
     background-color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
-
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 .footer-logo .logo-part {
     font-family: "Releway", sans-serif;
-    letter-spacing: 0.02em;
-}
-.span {
-    color: #f4f4fd;
 }
