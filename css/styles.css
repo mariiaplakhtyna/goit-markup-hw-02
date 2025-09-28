@@ -86,7 +86,7 @@ ul,ol {
 color: #2e2f42;
 font-size: 36px;
 line-height: 1.2;
-letter: spacing 0.02em;;
+letter-spacing:  0.02em;
 text-transform: capitalize;
 }
 
@@ -111,6 +111,9 @@ text-transform: capitalize;
 /* ===== Team ===== */
 .team {
     background-color: #f4f4fd;
+}
+.team-card {
+    background-color: #ffffff;
 }
 
 .section-title {
